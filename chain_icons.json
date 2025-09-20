@@ -2799,6 +2799,14 @@
     "format": "png"
   }]
 }, {
+  "name": "0g",
+  "icons": [{
+    "url": "ipfs://bafkreicc5esbtgqwrptmyvp75hdefsmgzgozlrjx4d7zonxkwuh5fpne5m",
+    "width": 500,
+    "height": 500,
+    "format": "svg"
+  }]
+}, {
   "name": "dcpayIcon",
   "icons": [{
     "url": "ipfs://QmezBwVepoegoCqb86idzPgvPxtaSuXzMLBGiiYfyTGTkc",
@@ -8220,6 +8228,14 @@
     "url": "ipfs://QmNmAFgQKkjofaBR5mhB5ygE1Gna36YBVsGkgZQxrwW85s",
     "width": 98,
     "height": 96,
+    "format": "png"
+  }]
+}, {
+  "name": "worldmobilechain",
+  "icons": [{
+    "url": "ipfs://bafkreiaa7ku47xm2736wexq53pihf7rfzeec7vwgvkhakd3sitogv4mi6m",
+    "width": 32,
+    "height": 32,
     "format": "png"
   }]
 }, {

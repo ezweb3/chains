@@ -4367,16 +4367,16 @@
   "faucets": [],
   "infoURL": "https://camino.network/"
 }, {
-  "name": "Syndicate Chain",
+  "name": "Syndicate Mainnet",
   "chainId": 510,
-  "shortName": "syndicate-chain-mainnet",
+  "shortName": "syndicate",
   "networkId": 510,
   "nativeCurrency": {
-    "name": "Ether",
-    "symbol": "ETH",
+    "name": "Syndicate",
+    "symbol": "SYND",
     "decimals": 18
   },
-  "rpc": ["https://rpc-mainnet.syndicate.io"],
+  "rpc": ["https://rpc.syndicate.io"],
   "faucets": [],
   "infoURL": "https://syndicate.io"
 }, {
@@ -5689,7 +5689,7 @@
     "symbol": "WMTX",
     "decimals": 18
   },
-  "rpc": [],
+  "rpc": ["https://worldmobilechain-mainnet.g.alchemy.com/public"],
   "faucets": [],
   "infoURL": "https://worldmobile.io/the-chain"
 }, {
@@ -13467,6 +13467,19 @@
   "faucets": ["https://faucet.dukong.mantrachain.io"],
   "infoURL": "https://mantrachain.io"
 }, {
+  "name": "MANTRACHAIN Mainnet",
+  "chainId": 5888,
+  "shortName": "mantrachain",
+  "networkId": 5888,
+  "nativeCurrency": {
+    "name": "OM",
+    "symbol": "OM",
+    "decimals": 18
+  },
+  "rpc": ["https://evm.mantrachain.io", "wss://evm.mantrachain.io/ws"],
+  "faucets": [],
+  "infoURL": "https://mantrachain.io"
+}, {
   "name": "BounceBit Testnet",
   "chainId": 6000,
   "shortName": "bouncebit-testnet",
@@ -17935,8 +17948,34 @@
     "symbol": "A0GI",
     "decimals": 18
   },
+  "rpc": [],
+  "faucets": ["https://faucet.0g.ai"],
+  "infoURL": "https://0g.ai"
+}, {
+  "name": "0G-Galileo-Testnet",
+  "chainId": 16601,
+  "shortName": "0gai-galileo-testnet",
+  "networkId": 16601,
+  "nativeCurrency": {
+    "name": "A0GI",
+    "symbol": "A0GI",
+    "decimals": 18
+  },
   "rpc": ["https://evmrpc-testnet.0g.ai"],
   "faucets": ["https://faucet.0g.ai"],
+  "infoURL": "https://0g.ai"
+}, {
+  "name": "0G Mainnet",
+  "chainId": 16661,
+  "shortName": "0g",
+  "networkId": 16661,
+  "nativeCurrency": {
+    "name": "0G",
+    "symbol": "0G",
+    "decimals": 18
+  },
+  "rpc": ["https://evmrpc.0g.ai"],
+  "faucets": [],
   "infoURL": "https://0g.ai"
 }, {
   "name": "IRIShub Testnet",
@@ -19577,7 +19616,7 @@
   "faucets": [],
   "infoURL": "https://fusion.org"
 }, {
-  "name": "Zilliqa EVM",
+  "name": "Zilliqa 2",
   "chainId": 32769,
   "shortName": "zil",
   "networkId": 32769,
@@ -19629,7 +19668,7 @@
   "faucets": [],
   "infoURL": "https://www.entangle.fi"
 }, {
-  "name": "Zilliqa EVM Testnet",
+  "name": "Zilliqa 2 Testnet",
   "chainId": 33101,
   "shortName": "zil-testnet",
   "networkId": 33101,
@@ -19638,9 +19677,9 @@
     "symbol": "ZIL",
     "decimals": 18
   },
-  "rpc": ["https://dev-api.zilliqa.com"],
-  "faucets": ["https://dev-wallet.zilliqa.com/faucet?network=testnet"],
-  "infoURL": "https://www.zilliqa.com/"
+  "rpc": ["https://api.testnet.zilliqa.com"],
+  "faucets": ["https://faucet.testnet.zilliqa.com"],
+  "infoURL": "https://www.zilliqa.com"
 }, {
   "name": "Zilliqa 2 EVM proto-testnet",
   "chainId": 33103,
@@ -23581,6 +23620,19 @@
   "faucets": [],
   "infoURL": "https://www.quarkchain.io"
 }, {
+  "name": "Sova",
+  "chainId": 100021,
+  "shortName": "sova",
+  "networkId": 100021,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.sova.io"],
+  "faucets": [],
+  "infoURL": "https://sova.io"
+}, {
   "name": "Deprecated CHI",
   "chainId": 100100,
   "shortName": "chi1",
@@ -25115,6 +25167,19 @@
   "faucets": [],
   "infoURL": "https://studio-blockchain.com"
 }, {
+  "name": "Studio Blockchain Mainnet",
+  "chainId": 240241,
+  "shortName": "stom",
+  "networkId": 240241,
+  "nativeCurrency": {
+    "name": "Studio Token",
+    "symbol": "STO",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet.studio-blockchain.com", "https://mainnet2.studio-blockchain.com", "https://mainnet3.studio-blockchain.com", "https://mainnet.studio-scan.com", "https://mainnet2.studio-scan.com", "wss://mainnet.studio-blockchain.com:8547"],
+  "faucets": [],
+  "infoURL": "https://studio-blockchain.com"
+}, {
   "name": "Orange Chain Testnet",
   "chainId": 240515,
   "shortName": "Orange-Chain-Testnet",
@@ -25400,6 +25465,19 @@
   "rpc": ["https://testnet-rpc.bloomgenesis.com"],
   "faucets": ["https://faucet.bloomgenesis.com"],
   "infoURL": "https://www.bloomgenesis.com"
+}, {
+  "name": "World Mobile Chain Testnet",
+  "chainId": 323432,
+  "shortName": "WMCTEST",
+  "networkId": 323432,
+  "nativeCurrency": {
+    "name": "ATestingToken",
+    "symbol": "WOMOX",
+    "decimals": 18
+  },
+  "rpc": ["https://worldmobile-devnet.g.alchemy.com/public"],
+  "faucets": ["https://testnet-faucet.worldmobile.net"],
+  "infoURL": "https://worldmobile.io/the-chain"
 }, {
   "name": "Camp Network Testnet V2",
   "chainId": 325000,
